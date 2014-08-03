@@ -1,0 +1,18 @@
+<script type="text/javascript"  charset="UTF-8">
+ var focus_width=1054
+ var focus_height=100
+ var text_height=18
+ var swf_height = focus_height+text_height
+ 
+ var pics='1.jpg|2.jpg|3.jpg|4.jpg'
+ var links='http://www.amazon.cn/gp/feature.html/ref=amb_link_34927212_2?ie=UTF8&docId=234628&pf_rd_m=A1AJ19PSB66TGU&pf_rd_s=center-stage-4&pf_rd_r=1PBEPY8QFK3B42H35AJK&pf_rd_t=101&pf_rd_p=76296452&pf_rd_i=658390051|http://www.amazon.cn/s/ref=amb_link_33950052_2?ie=UTF8&page=1&rh=n%3A658390051%2Ck%3A%E7%94%9F%E6%B4%BB%E2%80%A2%E8%AF%BB%E4%B9%A6%E2%80%A2%E6%96%B0%E7%9F%A5%E4%B8%89%E8%81%94%E4%B9%A6%E5%BA%97%2Cp_6%3AA1AJ19PSB66TGU&pf_rd_m=A1AJ19PSB66TGU&pf_rd_s=center-stage-5&pf_rd_r=1BS04EKEQYYRSQ88W90F&pf_rd_t=101&pf_rd_p=73847072&pf_rd_i=658390051|http://www.amazon.cn/%E5%9B%BE%E4%B9%A6%E4%BF%83%E9%94%80/b/ref=amb_link_35082032_2?ie=UTF8&node=293186071&pf_rd_m=A1AJ19PSB66TGU&pf_rd_s=center-stage-1&pf_rd_r=1756HEKV638SVJ7BZJDJ&pf_rd_t=101&pf_rd_p=76900732&pf_rd_i=658390051|http://www.amazon.cn/gp/feature.html/ref=amb_link_35085272_2?ie=UTF8&docId=335278&pf_rd_m=A1AJ19PSB66TGU&pf_rd_s=center-stage-4&pf_rd_r=1BS04EKEQYYRSQ88W90F&pf_rd_t=101&pf_rd_p=76918872&pf_rd_i=658390051'
+var texts='NewBook1|NewBook2|NewBook3|NewBook4'
+
+document.write('<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0" width="'+ focus_width +'" height="'+ swf_height +'">');
+ document.write('<param name="allowScriptAccess" value="sameDomain"><param name="movie" value="playswf.swf"><param name=wmode value=transparent><param name="quality" value="high">');
+ document.write('<param name="menu" value="false"><param name=wmode value="opaque">');
+ document.write('<param name="FlashVars" value="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'">');
+ document.write('<embed src="playswf.swf" wmode="opaque" FlashVars="pics='+pics+'&links='+links+'&texts='+texts+'&borderwidth='+focus_width+'&borderheight='+focus_height+'&textheight='+text_height+'" menu="false" bgcolor="#DADADA" quality="high" width="'+ focus_width +'" height="'+ swf_height +'" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />');  
+document.write('</object>');
+ 
+ </script>
